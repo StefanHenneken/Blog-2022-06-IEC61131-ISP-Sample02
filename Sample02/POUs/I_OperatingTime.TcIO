@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
+  <Itf Name="I_OperatingTime" Id="{9fa24e58-d070-4b01-bf22-66163460289c}">
+    <Declaration><![CDATA[INTERFACE I_OperatingTime EXTENDS __SYSTEM.IQueryInterface 
+]]></Declaration>
+    <Property Name="nOperatingTime" Id="{6c39c040-54a9-43eb-ad31-f7fdd5c2d68b}">
+      <Declaration><![CDATA[PROPERTY nOperatingTime : DINT // Operating Time [s]]]></Declaration>
+      <Get Name="Get" Id="{626b1936-35fc-4e73-a6ae-84537a4102cc}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Get>
+      <Set Name="Set" Id="{dc461364-efd8-46a9-87c4-3481b0699efa}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+      </Set>
+    </Property>
+  </Itf>
+</TcPlcObject>
